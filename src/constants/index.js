@@ -40,6 +40,25 @@ export const navLinks = [
   },
 ];
 
+const info = [
+  {
+    title: "Download CV",
+    icon: web,
+  },
+  {
+    title: "Linkdin",
+    icon: mobile,
+  },
+  {
+    title: "Github",
+    icon: backend,
+  },
+  {
+    title: "Instagram",
+    icon: creator,
+  },
+];
+
 const services = [
   {
     title: "Web Developer",
@@ -262,4 +281,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { info, services, technologies, experiences, testimonials, projects };
