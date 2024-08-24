@@ -3,6 +3,10 @@ import {
   backend,
   creator,
   web,
+  github,
+  linkedin,
+  instagram,
+  cv,
   javascript,
   typescript,
   html,
@@ -43,19 +47,23 @@ export const navLinks = [
 const info = [
   {
     title: "Download CV",
-    icon: web,
+    icon: cv, // Updated icon
+    link: "/src/assets/CV.pdf", // Ensure this path is correct relative to your public directory
   },
   {
-    title: "Linkdin",
-    icon: mobile,
+    title: "LinkedIn",
+    icon: linkedin, // Updated icon
+    link: "https://www.linkedin.com/feed/", // Replace with your LinkedIn profile URL
   },
   {
-    title: "Github",
-    icon: backend,
+    title: "GitHub",
+    icon: github, // Updated icon
+    link: "https://github.com/Beescod", // Replace with your GitHub profile URL
   },
   {
     title: "Instagram",
-    icon: creator,
+    icon: instagram, // Updated icon
+    link: "https://www.instagram.com/beescode_/#", // Replace with your Instagram profile URL
   },
 ];
 
