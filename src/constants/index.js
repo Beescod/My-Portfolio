@@ -46,24 +46,24 @@ export const navLinks = [
 
 const info = [
   {
-    title: "Download CV",
-    icon: cv, // Updated icon
-    link: "/src/assets/CV.pdf", // Ensure this path is correct relative to your public directory
+    title: "Resume",
+    icon: cv,
+    link: "/src/assets/CV.pdf",
   },
   {
     title: "LinkedIn",
-    icon: linkedin, // Updated icon
-    link: "https://www.linkedin.com/feed/", // Replace with your LinkedIn profile URL
+    icon: linkedin,
+    link: "https://www.linkedin.com/feed/",
   },
   {
     title: "GitHub",
-    icon: github, // Updated icon
-    link: "https://github.com/Beescod", // Replace with your GitHub profile URL
+    icon: github,
+    link: "https://github.com/Beescod",
   },
   {
     title: "Instagram",
-    icon: instagram, // Updated icon
-    link: "https://www.instagram.com/beescode_/#", // Replace with your Instagram profile URL
+    icon: instagram,
+    link: "https://www.instagram.com/beescode_/#", 
   },
 ];
 
