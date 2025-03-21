@@ -7,7 +7,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import linkedin from "./linkedin.png";
-import instagram from "./instagram.png";
+import twitter from "./Twitter.png";
 import cv from "./cv.png";
 
 import css from "./tech/css.png";
@@ -43,7 +43,7 @@ export {
   menu,
   close,
   linkedin,
-  instagram,
+  twitter,
   cv,
   css,
   docker,

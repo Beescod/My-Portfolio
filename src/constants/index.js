@@ -5,7 +5,7 @@ import {
   web,
   github,
   linkedin,
-  instagram,
+  twitter,
   cv,
   javascript,
   typescript,
@@ -61,9 +61,9 @@ const info = [
     link: "https://github.com/Beescod",
   },
   {
-    title: "Instagram",
-    icon: instagram,
-    link: "https://www.instagram.com/beescode_/#", 
+    title: "X",
+    icon: twitter,
+    link: "https://x.com/Abi_Prospa", 
   },
 ];
 
@@ -143,29 +143,28 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "UI/UX Designer",
+    company_name: "HEPHZIBAH EDUTECH ",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2020 - April 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed a CRM dashboard using Figma, improving student enrollment and management workflows.",
+      "Conducted user research and implemented an intuitive UI, reducing administrative workload by 40%.",
+      "Collaborated with developers to ensure a seamless frontend implementation using React.js & Tailwind CSS.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Fullstack Developer",
+    company_name: "RYLA",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed and developed a fully responsive registration platform using React.js, Bootstrap, and Cloudinary, enhancing the user experience for over 1,000 participants.",
+      "Optimized form validation and data handling, ensuring smooth and error-free registrations.",
+      "Integrated Cloudinary for efficient document and image uploads, reducing manual processing by 60%.",
+      "Enhanced mobile accessibility, ensuring seamless performance across various devices.",
     ],
   },
   {
