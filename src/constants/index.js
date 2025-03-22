@@ -69,7 +69,7 @@ const info = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Web  Developer",
     icon: web,
   },
   {
@@ -169,7 +169,7 @@ const experiences = [
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
+    company_name: "Pemilerin ",
     icon: shopify,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
@@ -181,8 +181,8 @@ const experiences = [
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Frontend Developer",
+    company_name: "Ecobank",
     icon: meta,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
