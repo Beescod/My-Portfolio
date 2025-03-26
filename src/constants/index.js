@@ -228,7 +228,7 @@ const projects = [
   {
     name: "UX Design",
     description:
-      "User-centric platform for seamless style lounge salon, booking, and management, designed for an intuitive and efficient transportation experience..",
+      "User-centric platform for seamless style lounge salon, booking, and stunning management system, designed for an intuitive and efficient transportation experience.",
     tags: [
       {
         name: "react",
@@ -247,9 +247,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "CRM Dashboard",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Developing a responsive frontend for a CRM web app, enhancing user experience with efficient client management, real-time data updates, and seamless navigation.",
     tags: [
       {
         name: "react",
@@ -268,9 +268,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Web3 Project",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A Web3 frontend exchange enabling   crypto trading, real-time market data visualization, and decentralized asset management with an intuitive user experience.",
     tags: [
       {
         name: "nextjs",
