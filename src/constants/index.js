@@ -73,18 +73,22 @@ const services = [
   {
     title: "UI/UX Designer",
     icon: web,
+    link: "/ui-ux-designer",
   },
   {
     title: "Web  Developer",
     icon: mobile,
+    link  : "/web-developer",
   },
   {
     title: "Backend Developer",
     icon: backend,
+    link: "/backend-developer",
   },
   {
     title: "Content Creator",
     icon: creator,
+    link: "/content-creator",
   },
 ];
 
