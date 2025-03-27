@@ -71,11 +71,11 @@ const info = [
 
 const services = [
   {
-    title: "Web  Developer",
+    title: "UI/UX Designer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Web  Developer",
     icon: mobile,
   },
   {
@@ -228,7 +228,7 @@ const projects = [
   {
     name: "UX Design",
     description:
-      "User-centric platform for seamless style lounge salon, booking, and stunning management system, designed for an intuitive and efficient transportation experience.",
+      "UX platform for seamless style lounge salon, booking, and stunning management system, designed for an intuitive and efficient transportation experience.",
     tags: [
       {
         name: "react",
