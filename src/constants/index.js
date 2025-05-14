@@ -235,15 +235,15 @@ const projects = [
       "UX platform for seamless style lounge salon, booking, and stunning management system, designed for an intuitive and efficient transportation experience.",
     tags: [
       {
-        name: "react",
+        name: "figma",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "adobe XD",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Adobe Photoshop",
         color: "pink-text-gradient",
       },
     ],
@@ -277,15 +277,15 @@ const projects = [
       "A Web3 frontend exchange enabling   crypto trading, real-time market data visualization, and decentralized asset management with an intuitive user experience.",
     tags: [
       {
-        name: "nextjs",
+        name: "ethersjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "walletconnect",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "dapp",
         color: "pink-text-gradient",
       },
     ],
