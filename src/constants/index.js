@@ -187,7 +187,7 @@ const experiences = [
     ],
   },
   {
-    title: "Frontend Developer",
+    title: "Web Developer",
     company_name: "Ecobank",
     icon: meta,
     iconBg: "#E6DEDD",
