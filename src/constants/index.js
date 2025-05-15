@@ -248,7 +248,7 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "/ui-ux-designer",
   },
   {
     name: "CRM Dashboard",

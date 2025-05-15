@@ -22,6 +22,14 @@ const figmaProjects = [
   {
     name: "Project 5",
     embedCode: `<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="550" src="https://embed.figma.com/design/JwpYd2CDdfCy1OYYcUawLf/Coffee-Shop?node-id=2-2&embed-host=share" allowfullscreen></iframe>`
+  }, 
+  {
+    name: "Project 6",
+    embedCode: `<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/design/oV5J0qZlHlsX2GQmgAgjrj/Gtbank-App--Community-?node-id=0-1&embed-host=share" allowfullscreen></iframe>`
+  },
+  {
+    name: "Project 6",
+    embedCode: `<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/design/eWhoxEstkbAB9PLcy9UtPJ/Ecobank-UI-KIT-BY-VIBEGEE--Community-?node-id=0-1&embed-host=share" allowfullscreen></iframe>`
   }
 ];
 
@@ -31,10 +39,9 @@ const sidebarFeatures = [
     icon: "👤",
     content: (
       <div>
-        <strong>Viewer Details</strong>
+        <strong>My Ui SPace</strong>
         <ul>
-          <li>Name: Pros Per</li>
-          <li>Country: USA</li>
+          <li>Projects count: 7</li>
           <li>Likes: 2</li>
         </ul>
       </div>
@@ -45,11 +52,9 @@ const sidebarFeatures = [
     icon: "🛠️",
     content: (
       <div>
-        <strong>Tools Used</strong>
+        <strong>Tools</strong>
         <ul>
           <li>Figma</li>
-          <li>Adobe XD</li>
-          <li>Sketch</li>
         </ul>
       </div>
     )
@@ -60,7 +65,7 @@ const sidebarFeatures = [
     content: (
       <div>
         <strong>Book a UI like this</strong>
-        <p>Email: <a href="mailto:your@email.com">your@email.com</a></p>
+        <p>Email: <a href="mailto:your@email.com">abiodunprosper07@gmail.com</a></p>
       </div>
     )
   },
@@ -81,8 +86,8 @@ const UIUXDesigner = () => {
   const [likes, setLikes] = useState(2);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
-  // Responsive breakpoints
-  const isMobile = windowWidth <= 600;
+
+  const isMobile = windowWidth <= 850;
   const isTablet = windowWidth > 600 && windowWidth <= 900;
 
   useEffect(() => {
@@ -103,7 +108,6 @@ const UIUXDesigner = () => {
   return (
     <div style={{ background: "#0a0c18", minHeight: "100vh", position: "relative" }}>
       <Navbar />
-      {/* Sidebar: Only show on desktop/tablet */}
       {!isMobile && (
         <div
           style={{
@@ -136,7 +140,6 @@ const UIUXDesigner = () => {
               >
                 {feature.icon}
               </button>
-              {/* Popup */}
               {activePopup === idx && (
                 <div
                   style={{
@@ -170,25 +173,25 @@ const UIUXDesigner = () => {
       {/* Main Content */}
       <div
         style={{
-          maxWidth: isMobile ? "100%" : isTablet ? 700 : 1100,
-          margin: isMobile ? "0" : "40px auto",
+          // maxWidth: isMobile ? "100%" : isTablet ? 700 : 1100,
+          margin: isMobile ? "0" : "0px auto",
           borderRadius: 16,
           boxShadow: "0 4px 24px rgba(0,0,0,0.07)",
-          padding: isMobile ? 0 : isTablet ? 16 : 32,
+          padding: isMobile ? "70px 1px 20px 1px" : isTablet ? "70px 1px 20px 1px" :"70px 1px 0px 1px",
         }}
       >
         <h1 style={{
-          fontWeight: 700,
-          fontSize: isMobile ? 16 : isTablet ? 22 : 32,
-          marginBottom: 8,
+          fontWeight: 500,
+          fontSize: isMobile ? 10 : isTablet ? 18 : 20,
+          marginBottom: 0,
           textAlign: "center"
         }}>
-          UI/UX Designer
+          My UI/UX Design Projects
         </h1>
         <p style={{
           color: "#555",
           marginBottom: 32,
-          fontSize: isMobile ? 12 : isTablet ? 15 : 18,
+          fontSize: isMobile ? 10 : isTablet ? 13 : 15,
           textAlign: "center"
         }}>
           Details about UI/UX design services...
@@ -231,37 +234,37 @@ const UIUXDesigner = () => {
         </div>
       </div>
 
-      {/* Like button fixed at bottom on mobile */}
-      {isMobile && (
-        <div
-          style={{
-            position: "fixed",
-            bottom: 16,
-            left: 0,
-            width: "100vw",
-            display: "flex",
-            justifyContent: "center",
-            zIndex: 2000
-          }}
-        >
-          <button
-            onClick={() => setLikes(likes + 1)}
-            style={{
-              background: "#0a0c18",
-              color: "#fff",
-              border: "none",
-              borderRadius: 24,
-              padding: "12px 32px",
-              fontSize: 18,
-              fontWeight: 700,
-              boxShadow: "0 2px 8px rgba(0,0,0,0.15)",
-              cursor: "pointer"
-            }}
-          >
-            👍
-          </button>
-        </div>
-      )}
+{isMobile && (
+  <div
+    style={{
+      position: "fixed",
+      bottom: 16,
+      left: 0,
+      width: "100vw",
+      display: "flex",
+      justifyContent: "flex-end", // Move to right
+      zIndex: 2000,
+      paddingRight: 16 // Add some space from the right edge
+    }}
+  >
+    <button
+      onClick={() => setLikes(likes + 1)}
+      style={{
+        background: "#0a0c18",
+        color: "#fff",
+        border: "none",
+        borderRadius: 24,
+        padding: "12px 20px",
+        fontSize: 18,
+        fontWeight: 700,
+        boxShadow: "0 2px 8px rgba(0,0,0,0.15)",
+        cursor: "pointer"
+      }}
+    >
+      👍
+    </button>
+  </div>
+)}
     </div>
   );
 };
