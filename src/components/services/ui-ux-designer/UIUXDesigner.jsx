@@ -28,7 +28,7 @@ const figmaProjects = [
     embedCode: `<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/design/oV5J0qZlHlsX2GQmgAgjrj/Gtbank-App--Community-?node-id=0-1&embed-host=share" allowfullscreen></iframe>`
   },
   {
-    name: "Project 6",
+    name: "Project 7",
     embedCode: `<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/design/eWhoxEstkbAB9PLcy9UtPJ/Ecobank-UI-KIT-BY-VIBEGEE--Community-?node-id=0-1&embed-host=share" allowfullscreen></iframe>`
   }
 ];
